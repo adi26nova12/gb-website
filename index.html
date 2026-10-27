@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Opus One — GB Realty</title>
+  <meta name="description" content="Opus One by GB Realty — 3, 4 & 5 BHK hyper-luxury residences in New Chandigarh. An address of opulence." />
+  <link rel="icon" href="assets/brand/gb-mark.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="loader" id="loader">
+    <div class="loader__mark">
+      <img src="assets/brand/gb-mark.svg" alt="" width="64" height="64" />
+    </div>
+    <p class="loader__name">GB Realty</p>
+    <p class="loader__tag">Passion for Excellence</p>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+    <p class="loader__pct" id="loaderPct">0</p>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <a href="#top" class="brand" aria-label="GB Realty — home">
+      <img src="assets/brand/gb-mark.svg" alt="" class="brand__mark" width="34" height="34" />
+      <span class="brand__text">
+        <span class="brand__name"><b>GB</b> Realty</span>
+        <span class="brand__sub">Opus One</span>
+      </span>
+    </a>
+    <nav class="header__nav">
+      <button class="header__link" id="menuOpen" aria-expanded="false" aria-controls="menu">
+        <span>The Chapters</span>
+        <span class="burger" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <a href="#enquire" class="header__link header__link--cta">Enquire <span class="arrow">↗</span></a>
+    </nav>
+  </header>
+
+  <!-- ============ CHAPTER MENU ============ -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <button class="menu__close" id="menuClose">Close <span aria-hidden="true">×</span></button>
+      <p class="eyebrow">The Chapters</p>
+      <ol class="menu__list">
+        <li><a href="#top"><span>01</span>Arrival</a></li>
+        <li><a href="#explore"><span>02</span>Explore Residences</a></li>
+        <li><a href="#story"><span>03</span>The Story</a></li>
+        <li><a href="#inside"><span>04</span>Inside the Residences</a></li>
+        <li><a href="#amenities"><span>05</span>Life &amp; Leisure</a></li>
+        <li><a href="#architecture"><span>06</span>An Iconic Silhouette</a></li>
+        <li><a href="#address"><span>07</span>New Chandigarh</a></li>
+        <li><a href="#minds"><span>08</span>The Makers</a></li>
+        <li><a href="#masterplan"><span>09</span>Master Plan</a></li>
+        <li><a href="#specs"><span>10</span>Specifications</a></li>
+        <li><a href="#about"><span>11</span>GB Realty</a></li>
+        <li><a href="#enquire"><span>12</span>Enquire</a></li>
+      </ol>
+      <div class="menu__foot">
+        <p>Site Office — Plot No. 1, Eco City 2, New Chandigarh 140901</p>
+        <p>RERA — PBRERA-SAS81-PR1267</p>
+      </div>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ 01 · OPENING (scroll-scrubbed sequence) ============ -->
+    <section class="opening" id="opening" data-theme="dark">
+      <div class="opening__sticky">
+        <canvas class="seq-canvas" id="openingCanvas" aria-hidden="true"></canvas>
+        <div class="opening__shade"></div>
+
+        <div class="opening__hero" id="openingHero">
+          <h1 class="display opening__title">
+            <span class="line"><span>Opus</span></span>
+            <span class="line"><span>One</span></span>
+          </h1>
+          <span class="rule"></span>
+          <p class="opening__tag">An Address of Opulence</p>
+        </div>
+
+        <div class="opening__scroll" id="openingScroll">
+          <span>Scroll</span>
+          <i></i>
+          <svg width="14" height="8" viewBox="0 0 14 8" fill="none"><path d="M1 1l6 6 6-6" stroke="currentColor"/></svg>
+        </div>
+
+        <div class="opening__dev" id="openingDev">
+          <span class="opening__devlabel">Developed by</span>
+          <span class="opening__devname"><b>GB</b> REALTY</span>
+          <span class="opening__devsub">Passion for Excellence</span>
+        </div>
+
+        <div class="opening__outro" id="openingOutro">
+          <p class="eyebrow eyebrow--light">The Residences</p>
+          <h2 class="display">Seven houses.<br /><em>Nine plans.</em></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 · EXPLORE RESIDENCES ============ -->
+    <section class="explore" id="explore" data-theme="dark">
+      <div class="explore__stage">
+        <div class="explore__frame" id="exploreFrame">
+          <img src="assets/img/explore-towers.jpg" alt="Opus One towers at dusk, New Chandigarh" class="explore__img" />
+          <div class="explore__beams" id="exploreBeams"></div>
+        </div>
+        <div class="explore__shade"></div>
+      </div>
+
+      <div class="explore__panel">
+        <h2 class="display explore__title">Explore<br />Residences</h2>
+        <span class="rule rule--light"></span>
+        <p class="explore__hint">Select a house to discover its residences.</p>
+        <div class="explore__current" id="exploreCurrent">
+          <p class="explore__house">Vidalia House</p>
+          <p class="explore__meta">3+1 BHK · Super area 3,544 sq.ft.</p>
+        </div>
+      </div>
+
+      <ol class="explore__index" id="exploreIndex" aria-label="Houses"></ol>
+
+      <div class="explore__foot">
+        <p>Open a residence to carry on</p>
+        <a href="#entrance" class="explore__skip">Continue without exploring <span>↓</span></a>
+      </div>
+    </section>
+
+    <!-- Residence detail overlay -->
+    <div class="plan" id="plan" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="planTitle">
+      <div class="plan__inner">
+        <button class="plan__back" id="planBack"><span>←</span> Back to building</button>
+        <div class="plan__head">
+          <p class="eyebrow eyebrow--light" id="planEyebrow">Typical unit plan</p>
+          <h3 class="display plan__title" id="planTitle">Vidalia House</h3>
+          <p class="plan__type" id="planType">3+1 BHK</p>
+          <div class="plan__tabs" id="planTabs"></div>
+          <dl class="plan__areas" id="planAreas"></dl>
+          <a href="#enquire" class="btn btn--gold" id="planEnquire">Enquire about this residence <span>↗</span></a>
+        </div>
+        <figure class="plan__figure">
+          <img id="planImg" src="" alt="" />
+          <figcaption id="planCaption"></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- ============ 03 · ENTRANCE (scroll-scrubbed sequence) ============ -->
+    <section class="entrance" id="entrance" data-theme="dark">
+      <div class="entrance__sticky">
+        <canvas class="seq-canvas" id="entranceCanvas" aria-hidden="true"></canvas>
+        <div class="entrance__caption" id="entranceCaption">
+          <p class="eyebrow eyebrow--light">The Grand Lobby</p>
+          <h2 class="display">Beyond an entrance,<br /><em>a statement of refined living.</em></h2>
+        </div>
+        <p class="entrance__cue" id="entranceCue">Scroll to step inside <span>↓</span></p>
+      </div>
+    </section>
+
+    <!-- ============ 04 · STORY ============ -->
+    <section class="story" id="story" data-theme="light">
+      <div class="story__top">
+        <p class="eyebrow">The Residence</p>
+        <p class="eyebrow eyebrow--muted">Opus One · Eco City 2 · New Chandigarh</p>
+      </div>
+      <h2 class="display story__title reveal-words">A tale of timeless <em>transcendence begins.</em></h2>
+      <p class="story__lede reveal">A triumph of exceptional design and creativity — a single address that redefines living standards, undertaken with precision and artistry, blending elegance and comfort into one timeless experience.</p>
+
+      <ul class="stats">
+        <li class="reveal"><b data-count="3/4/5">3/4/5</b><span>BHK hyper-luxury<br />residences</span></li>
+        <li class="reveal"><b data-count="688">688</b><span>Residential<br />units</span></li>
+        <li class="reveal"><b data-count="9">9</b><span>Unit plans<br />to choose from</span></li>
+        <li class="reveal"><b data-count="7">7</b><span>Tier<br />security</span></li>
+      </ul>
+
+      <div class="story__split">
+        <figure class="story__img reveal-img"><img src="assets/img/man-car.jpg" alt="Arrival at dusk" loading="lazy" /></figure>
+        <div class="story__copy">
+          <p class="eyebrow">The Address of Privilege</p>
+          <h3 class="display">Poised for <em>tomorrow.</em></h3>
+          <p>Some places capture the spirit of their time. Others belong to the future. New Chandigarh is one such tabula rasa — cradled by the quiet guardianship of the Shivaliks, alive with the energy of what is yet to come.</p>
+          <p>Within this evolving masterpiece, Opus One emerges as a statement of arrival: a future where luxury is not ostentation but quiet confidence — not fleeting, but enduring.</p>
+          <ul class="services">
+            <li>Access Control</li><li>Front Desk</li><li>Concierge Service</li><li>Maintenance Service</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 · INSIDE THE RESIDENCES (horizontal chapters) ============ -->
+    <section class="inside" id="inside" data-theme="light">
+      <div class="inside__head">
+        <p class="eyebrow">Inside the Residences</p>
+        <p class="eyebrow eyebrow--muted">The Opus Collection</p>
+      </div>
+      <div class="inside__track" id="insideTrack">
+        <article class="chapter">
+          <figure><img src="assets/img/lift-lobby.jpg" alt="Private lift lobby in bronze and marble" loading="lazy" /></figure>
+          <h3 class="display chapter__title">Your private<br /><em>ascent.</em></h3>
+          <div class="chapter__note"><span>01 / The Lift Lobby</span><p>Bronze, travertine and a quiet welcome on every floor.</p></div>
+        </article>
+        <article class="chapter">
+          <figure><img src="assets/img/foyer.jpg" alt="Residence foyer opening onto the living room" loading="lazy" /></figure>
+          <h3 class="display chapter__title">Mirror<br /><em>finesse.</em></h3>
+          <div class="chapter__note"><span>02 / The Foyer</span><p>Every residence conceived as a private gallery of design.</p></div>
+        </article>
+        <article class="chapter">
+          <figure><img src="assets/img/living.jpg" alt="Living room opening to a deck" loading="lazy" /></figure>
+          <h3 class="display chapter__title">Quiet<br /><em>sophistication.</em></h3>
+          <div class="chapter__note"><span>03 / The Living</span><p>Measured not in ornament, but in proportion, light and materiality.</p></div>
+        </article>
+        <article class="chapter">
+          <figure><img src="assets/img/dining.jpg" alt="Formal dining room" loading="lazy" /></figure>
+          <h3 class="display chapter__title">Elegance,<br /><em>elevated.</em></h3>
+          <div class="chapter__note"><span>04 / The Dining</span><p>Elegance that elevates every corner of the home.</p></div>
+        </article>
+        <article class="chapter">
+          <figure><img src="assets/img/bedroom.jpg" alt="Master bedroom with city views" loading="lazy" /></figure>
+          <h3 class="display chapter__title">The heart<br /><em>of the home.</em></h3>
+          <div class="chapter__note"><span>05 / The Master Suite</span><p>A testament of art, opening onto the Shivaliks.</p></div>
+        </article>
+        <article class="chapter">
+          <figure><img src="assets/img/bath.jpg" alt="Marble bath and walk-in wardrobe" loading="lazy" /></figure>
+          <h3 class="display chapter__title">An intimate<br /><em>retreat.</em></h3>
+          <div class="chapter__note"><span>06 / The Bath</span><p>Sculpted to perfection in marble, timber and bronze.</p></div>
+        </article>
+      </div>
+      <div class="inside__progress"><span id="insideBar"></span></div>
+    </section>
+
+    <!-- ============ 06 · AMENITIES ============ -->
+    <section class="amen" id="amenities" data-theme="light">
+      <div class="amen__head">
+        <p class="eyebrow">Life &amp; Leisure</p>
+        <h2 class="display reveal-words">Where life, leisure <em>and luxury intertwine.</em></h2>
+      </div>
+      <div class="amen__grid">
+        <div class="amen__media">
+          <div class="amen__frame" id="amenFrame"></div>
+          <p class="amen__count"><span id="amenNum">01</span> / <span id="amenTotal">10</span></p>
+        </div>
+        <ol class="amen__list" id="amenList"></ol>
+      </div>
+      <div class="amen__more">
+        <p class="eyebrow">And more, across the clubhouse &amp; grounds</p>
+        <ul id="amenMore"></ul>
+      </div>
+    </section>
+
+    <!-- ============ 07 · ARCHITECTURE ============ -->
+    <section class="arch" id="architecture" data-theme="dark">
+      <figure class="arch__bg"><img src="assets/img/facade-night.jpg" alt="Opus One facade lit at dusk" loading="lazy" /></figure>
+      <div class="arch__content">
+        <p class="eyebrow eyebrow--light">Visage of a Masterpiece</p>
+        <h2 class="display reveal-words">An iconic <em>silhouette.</em></h2>
+        <p class="reveal">Architecture at its highest order is not only about design but about leaving a mark on the skyline and in history. Recognised by the Government of Punjab for its distinction and honoured with IGBC certification, Opus One is celebrated as much for its aesthetic power as for its mindful commitment to the future.</p>
+        <div class="laurels">
+          <div class="laurel reveal"><svg viewBox="0 0 120 120" aria-hidden="true"><use href="#laurel" /></svg><span>Certified Iconic Architecture<br />by Govt. of Punjab</span></div>
+          <div class="laurel reveal"><svg viewBox="0 0 120 120" aria-hidden="true"><use href="#laurel" /></svg><span>Pre-Certified Platinum<br />Rating by IGBC</span></div>
+        </div>
+      </div>
+      <ul class="firsts">
+        <li class="reveal"><span>01</span>First ‘Iconic Certified’ architecture</li>
+        <li class="reveal"><span>02</span>First tallest residential development in New Chandigarh</li>
+        <li class="reveal"><span>03</span>First IGBC Platinum rated project in New Chandigarh</li>
+      </ul>
+    </section>
+
+    <section class="aerial" data-theme="dark">
+      <figure class="aerial__img reveal-img"><img src="assets/img/aerial.jpg" alt="Aerial view of Opus One among green boulevards" loading="lazy" /></figure>
+      <figure class="aerial__img aerial__img--b reveal-img"><img src="assets/img/facade-low.jpg" alt="Looking up at the gold ribbon facade" loading="lazy" /></figure>
+    </section>
+
+    <!-- ============ 08 · NEW CHANDIGARH ============ -->
+    <section class="address" id="address" data-theme="light">
+      <div class="address__split">
+        <figure class="address__img reveal-img"><img src="assets/img/sunset.jpg" alt="Sunset over the Shivalik foothills" loading="lazy" /></figure>
+        <div class="address__copy">
+          <p class="eyebrow">The Confluence of Modernity, Mystique &amp; Legacy</p>
+          <h2 class="display reveal-words">New <em>Chandigarh.</em></h2>
+          <p class="reveal">More than an extension of Chandigarh — a bold reimagination of the City Beautiful’s legacy. Nestled at the foothills of the Lower Shivaliks, it blends Chandigarh’s signature planned aesthetics with contemporary innovation: serene yet connected, and emerging as a metropolis that rivals India’s greatest urban centres.</p>
+          <p class="reveal">Where colossal infrastructure converges with prestigious educational institutions, medical facilities and hospitality, New Chandigarh is where it all leads.</p>
+        </div>
+      </div>
+      <div class="landmarks">
+        <p class="landmarks__lede display reveal">Where landmarks rise from the cityscape — <em>a life both vibrant and tranquil.</em></p>
+        <ol class="landmarks__list">
+          <li class="reveal"><span>01</span>Chandigarh–Baddi main highway connectivity</li>
+          <li class="reveal"><span>02</span>Maharaja Yadavindra Singh International Cricket Stadium</li>
+          <li class="reveal"><span>03</span>Tata Memorial Hospital</li>
+          <li class="reveal"><span>04</span>Narsee Monjee Institute of Management Studies</li>
+          <li class="reveal"><span>05</span>Strawberry Fields World School</li>
+          <li class="reveal"><span>06</span>Prey Bush dining experience · Siswan Reserve Forest</li>
+          <li class="reveal"><span>07</span>The Oberoi Sukhvilas Resort &amp; Spa</li>
+        </ol>
+      </div>
+      <figure class="address__map reveal-img"><img src="assets/img/map.jpg" alt="Location map of Opus One in New Chandigarh, along the Kurali–Chandigarh highway" loading="lazy" /></figure>
+    </section>
+
+    <!-- ============ 09 · THE MAKERS ============ -->
+    <section class="minds" id="minds" data-theme="light">
+      <div class="minds__head">
+        <p class="eyebrow">The Makers</p>
+        <h2 class="display reveal-words">Shaped by the world’s <em>finest minds.</em></h2>
+      </div>
+      <div class="minds__grid">
+        <article class="mind reveal">
+          <p class="mind__role">Principal Architect<br /><span>Chandigarh, India</span></p>
+          <h3 class="mind__firm">Aréte Design Studio</h3>
+          <p>A leading Chandigarh firm shaping the Tricity skyline since 2009, recognised for innovative and sustainable architecture.</p>
+          <p class="mind__lead">Tripat Girdhar — Founder &amp; Managing Director</p>
+        </article>
+        <article class="mind reveal">
+          <p class="mind__role">Landscape Architect<br /><span>Bangkok, Thailand</span></p>
+          <h3 class="mind__firm">PLA</h3>
+          <p>A landscape collective behind high-end resorts, hotels and residences across Southeast Asia — from The Oberoi Sukhvilas to Four Seasons Residences, Mumbai.</p>
+          <p class="mind__lead">Wannaporn Phornprapha — Founder &amp; Director</p>
+        </article>
+        <article class="mind reveal">
+          <p class="mind__role">Lighting &amp; Visual Planners<br /><span>NSW, Australia</span></p>
+          <h3 class="mind__firm">LDP</h3>
+          <p>Award-winning lighting designers whose work spans the Sydney Opera House, Jal Mahal and Federation Square.</p>
+          <p class="mind__lead">Dhruvajyoti Ghose — Managing Director</p>
+        </article>
+        <article class="mind reveal">
+          <p class="mind__role">Interior Design Consultants<br /><span>Singapore</span></p>
+          <h3 class="mind__firm">HBA</h3>
+          <p>A multi-disciplinary collective behind Park Hyatt, Raffles, One &amp; Only, Four Seasons and Mandarin Oriental interiors.</p>
+          <p class="mind__lead">Chris Godfrey — CEO</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 10 · MASTER PLAN ============ -->
+    <section class="mplan" id="masterplan" data-theme="light">
+      <div class="mplan__grid">
+        <figure class="mplan__img reveal-img"><img src="assets/img/masterplan.jpg" alt="Opus One master plan" loading="lazy" /></figure>
+        <div class="mplan__copy">
+          <p class="eyebrow">The Master Plan</p>
+          <h2 class="display reveal-words">Every element, <em>in harmony.</em></h2>
+          <p class="reveal">A masterpiece of sophistication, where every element harmonises to reflect individuality and refined living — with meticulously curated amenities for a lifestyle of brilliance.</p>
+          <ol class="legend" id="legend"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 11 · SPECIFICATIONS ============ -->
+    <section class="specs" id="specs" data-theme="dark">
+      <figure class="specs__img reveal-img"><img src="assets/img/night-couch.jpg" alt="Evening above the city lights" loading="lazy" /></figure>
+      <div class="specs__copy">
+        <p class="eyebrow eyebrow--light">Technical Specifications</p>
+        <h2 class="display reveal-words">Crafted in <em>detail.</em></h2>
+        <dl class="spec-list" id="specList"></dl>
+      </div>
+    </section>
+
+    <!-- ============ 12 · GB REALTY ============ -->
+    <section class="about" id="about" data-theme="light">
+      <img src="assets/brand/gb-mark.svg" alt="" class="about__watermark" aria-hidden="true" />
+      <div class="about__inner">
+        <p class="eyebrow reveal">An iconic development from the house of GB Realty</p>
+        <h2 class="display reveal-words"><b class="gbb">GB</b> Realty. <em>Passion for excellence.</em></h2>
+        <p class="reveal">GB Realty is the brainchild of visionary entrepreneurs with decades of real-world experience across business sectors, and a strong national and international presence.</p>
+        <p class="reveal">Founded by a like-minded group with a demonstrated track record, GB Realty is the latest venture of a conglomerate with interests in luxury hospitality, global student mobility, education, media and entertainment — established to deliver transformative real estate in strategically located growth corridors.</p>
+        <div class="venture reveal">
+          <span class="eyebrow">A venture of</span>
+          <span class="venture__name">OPTAS</span>
+        </div>
+        <ul class="family reveal">
+          <li>Opus One</li><li>First Avenue</li><li>The Pinnacle</li><li>Fairfield by Marriott</li><li>DoubleTree by Hilton</li><li>Sarovar Premiere</li><li>The Cabbana Resort &amp; Spa</li><li>GB Legends</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 13 · ENQUIRE ============ -->
+    <section class="enquire" id="enquire" data-theme="dark">
+      <div class="enquire__grid">
+        <div class="enquire__copy">
+          <p class="eyebrow eyebrow--light">Enquire</p>
+          <h2 class="display reveal-words">A legacy asset, <em>and a lifestyle of unparalleled luxury.</em></h2>
+          <p class="reveal">New Chandigarh’s finest place to live — and a great investment opportunity. Leave your details and our relationship team will arrange a private presentation.</p>
+          <div class="offices">
+            <div><p class="eyebrow eyebrow--light">Corporate Office</p><p>SCO 1-2-3, Second Floor<br />Sector 8 C, Madhya Marg<br />Chandigarh 160008</p></div>
+            <div><p class="eyebrow eyebrow--light">Site Office</p><p>Plot No. 1, Eco City 2<br />New Chandigarh 140901</p></div>
+          </div>
+          <a class="enquire__web" href="https://www.gbrealty.com" target="_blank" rel="noopener">www.gbrealty.com ↗</a>
+        </div>
+        <form class="form" id="enquireForm" novalidate>
+          <label class="field"><span>Full name</span><input name="name" autocomplete="name" required /></label>
+          <label class="field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" required /></label>
+          <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" /></label>
+          <label class="field"><span>Interested in</span>
+            <select name="interest" id="interestSelect">
+              <option>3+1 BHK</option><option>4+1 BHK</option><option>5+1 BHK</option><option>Not sure yet</option>
+            </select>
+          </label>
+          <label class="field field--full"><span>Message</span><textarea name="message" rows="3"></textarea></label>
+          <button class="btn btn--gold" type="submit">Request a private presentation <span>↗</span></button>
+          <p class="form__ok" id="formOk" hidden>Thank you — our team will be in touch shortly.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-theme="dark">
+    <div class="footer__top">
+      <a href="#top" class="brand brand--lg">
+        <img src="assets/brand/gb-mark.svg" alt="" class="brand__mark" width="44" height="44" />
+        <span class="brand__text"><span class="brand__name"><b>GB</b> Realty</span><span class="brand__sub">Passion for Excellence</span></span>
+      </a>
+      <p class="footer__rera">Project RERA No. PBRERA-SAS81-PR1267</p>
+    </div>
+    <p class="footer__disc"><b>Disclaimer.</b> This website is purely conceptual and does not constitute a legally binding offer. All images are artist’s impressions and not necessarily fully representative. Services, infrastructure, designs, amenities, site plans, layout plans, floor plans, areas, dimensions, specifications, elevations and perspective views are tentative and subject to variation without notice until final completion, at the sole discretion of the competent statutory authorities or the Company. Soft furniture, furniture and gadgets are not part of the offering. Opus One is a government-approved group housing project.</p>
+    <p class="footer__copy">© <span id="year"></span> GB Realty. All rights reserved.</p>
+  </footer>
+
+  <a class="wa" id="waBtn" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" hidden>
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.3z"/></svg>
+  </a>
+
+  <!-- shared SVG symbols -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="laurel" viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+        <path d="M60 104C34 102 16 82 16 56c0-10 3-19 8-27" />
+        <path d="M60 104c26-2 44-22 44-48 0-10-3-19-8-27" />
+        <path d="M24 34c-6-2-9-7-8-12 6 0 10 4 8 12zM19 48c-6-3-8-8-6-13 6 1 9 6 6 13zM18 63c-5-4-6-9-3-14 5 2 7 8 3 14zM22 77c-4-5-4-10 0-14 5 3 5 9 0 14zM30 89c-3-5-1-11 3-13 3 4 2 10-3 13zM42 98c-2-6 1-11 5-12 2 5 0 10-5 12z" />
+        <path d="M96 34c6-2 9-7 8-12-6 0-10 4-8 12zM101 48c6-3 8-8 6-13-6 1-9 6-6 13zM102 63c5-4 6-9 3-14-5 2-7 8-3 14zM98 77c4-5 4-10 0-14-5 3-5 9 0 14zM90 89c3-5 1-11-3-13-3 4-2 10 3 13zM78 98c2-6-1-11-5-12-2 5 0 10 5 12z" />
+        <path d="M52 108h16" />
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="data.js?v=3"></script>
+  <script src="seq-counts.js?v=3"></script>
+  <script src="main.js?v=3"></script>
+</body>
+</html>

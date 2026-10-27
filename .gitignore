@@ -1,0 +1,8 @@
+# Raw Higgsfield sources (videos + full-size PNGs) — not needed to serve the site
+assets/gen/
+
+# Local editor / preview config
+.claude/
+
+.DS_Store
+Thumbs.db
